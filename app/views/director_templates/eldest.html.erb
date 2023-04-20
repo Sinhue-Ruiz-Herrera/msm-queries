@@ -2,5 +2,5 @@
 
 <p>
 
-  The eldest director in our dataset right now is Charles Chaplin, born on April 16,1889.
+  The eldest director in our dataset right now is <%= @oldest.name%> born on <%= @oldest.dob.strftime("%B %e, %Y")%>
   </p>
