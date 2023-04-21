@@ -31,4 +31,6 @@ class DirectorsController < ApplicationController
 
     render({ :template => "director_templates/show.html.erb"})
   end
+
+ 
 end
