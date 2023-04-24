@@ -13,5 +13,6 @@ get("/movies", {:controller => "movies", :action => "index_movies" })
 get("/movies/:an_id", {:controller => "movies" , :action => "movie_details"})
 
 get("/actors/", { :controller => "actors" , :action => "actors_index" })
+get("/actors/:an_id", { :controller => "actors", :action => "actors_bio"})
 
 end
