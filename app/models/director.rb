@@ -13,6 +13,7 @@
 class Director <ApplicationRecord
 
   has_many :movies
+  #belongs_to :movies
   # def movies
   #   Movie.where({ :director_id => self.id })
   # end
